@@ -1,4 +1,4 @@
-package com.example.exercice2.security;
+package exercice2.security;
 
 import org.springframework.context.annotation.*;
 import org.springframework.http.HttpMethod;

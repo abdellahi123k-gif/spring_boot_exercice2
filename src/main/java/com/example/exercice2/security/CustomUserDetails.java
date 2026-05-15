@@ -1,6 +1,6 @@
-package com.example.exercice2.security;
+package exercice2.security;
 
-import com.example.exercice2.entity.User;
+import exercice2.entity.User;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

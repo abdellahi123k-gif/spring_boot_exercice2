@@ -1,4 +1,4 @@
-package com.example.exercice2.DTO;
+package exercice2.DTO;
 
 import lombok.Data;
 

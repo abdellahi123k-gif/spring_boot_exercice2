@@ -1,7 +1,7 @@
-package com.example.exercice2.security;
+package exercice2.security;
 
-import com.example.exercice2.entity.User;
-import com.example.exercice2.repository.UserRepository;
+import exercice2.entity.User;
+import exercice2.repository.UserRepository;
 import org.springframework.security.core.userdetails.*;
 import org.springframework.stereotype.Service;
 
