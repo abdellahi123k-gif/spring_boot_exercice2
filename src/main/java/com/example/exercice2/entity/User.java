@@ -1,5 +1,6 @@
 package com.example.exercice2.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -21,9 +22,11 @@ public class User {
 
     private String email;
 
+    private String password;
     @Enumerated(EnumType.STRING)
     private Role role;
 
     @OneToMany(mappedBy = "user")
+    @JsonIgnore
     private List<Article> articles;
 }
